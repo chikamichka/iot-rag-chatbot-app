@@ -1,0 +1,49 @@
+name: frontend
+description: IoT RAG Chatbot Flutter App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  
+  # Networking
+  http: ^1.2.1
+  
+  # State Management
+  provider: ^6.1.2
+  
+  # UI Components
+  # FIX: Replaced discontinued flutter_markdown with the core markdown package.
+  markdown: ^7.0.0 
+  
+  # Storage & Data
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.3
+  
+  # File Handling
+  # FIX: Corrected version from 11.0.0 to 10.3.3
+  file_picker: ^10.3.3 
+  
+  # Voice Input
+  speech_to_text: ^7.3.0
+  permission_handler: ^12.0.1
+  
+  # Notifications
+  flutter_local_notifications: ^17.1.0
+  
+  # Utils
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+
+flutter:
+  uses-material-design: true

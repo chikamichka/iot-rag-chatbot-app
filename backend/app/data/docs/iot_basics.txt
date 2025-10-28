@@ -1,0 +1,26 @@
+Introduction to IoT and Edge Computing
+
+IoT (Internet of Things) refers to the network of physical devices embedded with sensors, software, and connectivity to exchange data. Edge computing processes data near the source rather than in centralized cloud servers.
+
+Key IoT Protocols:
+- MQTT (Message Queuing Telemetry Transport): Lightweight publish-subscribe protocol for IoT devices
+- CoAP (Constrained Application Protocol): Designed for resource-constrained devices
+- HTTP/HTTPS: Traditional web protocols adapted for IoT
+- LoRaWAN: Long-range, low-power protocol for IoT networks
+
+Edge Computing Architecture:
+Edge computing brings computation closer to data sources, reducing latency and bandwidth usage. Edge nodes can perform real-time processing, filtering, and analysis before sending data to the cloud.
+
+IoT Security Best Practices:
+- Device authentication and authorization
+- Encrypted communication channels
+- Regular firmware updates
+- Network segmentation
+- Secure boot mechanisms
+
+Common IoT Use Cases:
+- Smart home automation
+- Industrial IoT (IIoT) for manufacturing
+- Smart cities infrastructure
+- Healthcare monitoring devices
+- Agriculture sensors
